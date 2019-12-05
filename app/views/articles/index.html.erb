@@ -1,0 +1,13 @@
+    
+<%= render "partials/navigation" %>
+
+
+<div class="container" style="margin:0 auto;">
+<h1>Articulos</h1>
+<div class="row">
+	<%= render @articles %>
+</div>
+	<div class="top-space text-center">
+		<%= will_paginate @articles %>
+	</div>
+</div>
